@@ -8,3 +8,4 @@
 ![parameter](https://user-images.githubusercontent.com/118614779/226299910-9da7c38b-2fac-49e4-9c1b-87c26d5c7a3c.jpg)
 [README.md](https://github.com/StatisticsForAll/practice/files/11016166/README.md)
 ![statistics](https://user-images.githubusercontent.com/118614779/226299925-52768306-5e7c-4d1f-aeee-c2f421bc3e55.jpg)
+
