@@ -1,1 +1,10 @@
-# statistics
+![data](https://user-images.githubusercontent.com/118614779/226299863-cfc0bc61-0565-42b7-a39d-77e28f41c2b4.jpg)
+![descriptive_statistics](https://user-images.githubusercontent.com/118614779/226299880-33c7b23f-65da-4590-87ca-698173485688.jpg)
+![image2](https://user-images.githubusercontent.com/118614779/226299888-234c56a0-fec5-48e0-8b87-dcf63f3d9406.jpg)
+![image9](https://user-images.githubusercontent.com/118614779/226299890-ee6ae721-1d1e-4518-aedc-8add9c422d69.jpg)
+![inferentialstatistics](https://user-images.githubusercontent.com/118614779/226299898-6f167388-ec90-450a-b253-be91409143ad.jpg)
+![logo](https://user-images.githubusercontent.com/118614779/226299901-ad4e73af-8bb3-4524-94fc-52d860d27f68.jpg)
+![MEAN](https://user-images.githubusercontent.com/118614779/226299904-3f536c76-4cdd-466e-9fd3-099626236f2b.jpg)
+![parameter](https://user-images.githubusercontent.com/118614779/226299910-9da7c38b-2fac-49e4-9c1b-87c26d5c7a3c.jpg)
+[README.md](https://github.com/StatisticsForAll/practice/files/11016166/README.md)
+![statistics](https://user-images.githubusercontent.com/118614779/226299925-52768306-5e7c-4d1f-aeee-c2f421bc3e55.jpg)
