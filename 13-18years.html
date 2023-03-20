@@ -1,0 +1,214 @@
+<html>
+<head>
+<title>Statistics for all</title>
+<meta charset ="UTF-8">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+<meta name ="viewport" content ="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<body background ="image9.jpg">
+<!---header--->
+<a href = "index.html">
+<img src ="image2.jpg" alt="Statistics for all" title="statistics for all">
+</a>
+<table border="0" width="100%" cellspacing="1" bgcolor="#673de6">
+<tr><td>
+<table border="0" width="85%" align="center" cellpadding="15">
+<tr>
+<td> <font face="Open Sans" size="5" color="white"> <b> STATISTICS FOR ALL </b></font></td>
+
+<td width="20%"></td>
+<td> <a href="index.html"> <font color="#fff"> HOME </font> </a></td>
+<td> <a href="contentsfinal.html"><font color="#fff">CONTENTS </font></a></td>
+
+<td> <a href="login.html"><font color="#fff"> LOGIN </font> </a></td>
+<td> <a href="signup1.html"><font color="#fff"> SIGN UP </font> </a></td>
+
+<form id="form">
+
+<td bgcolor="lightcyan" align ="center" > 
+<input type="search" id="query" name="q" placeholder="Search...">
+<button>Search</button>
+</form>
+</tr>
+</table>
+</td></tr>
+</table>
+
+<!---End header--->
+
+<!---Home---->
+<table>
+<tr><td>
+<table width="85%" border="0" align="center" cellpadding="15px">
+<tr>
+<td> 
+	<h1> <font face="Open Sans" size="6"> MEAN MEDIAN MODE </font></h1>
+	<h1> <font face="Open Sans" size="4">When huge data is collected in any resources, to describe it meaningfully, we sometimes need to summarise the data. Central tendency aims to provide an accurate description of the entire data. It is a statistic that represents the entire population with a single value. The three commonly used measures of central tendency are mean, median, mode.</font></h1>
+	<font size="3"><STRONG>MEAN</STRONG>
+If we come to the basic definition of mean, mean refers to the average set of values. It is calculated by dividing the sum of given numbers by the total number of given numbers. 
+In Statistics, the different types of mean are arithmetic mean, geometric mean (GM) and harmonic mean (HM). The basic formulas for the three different types of mean are as shown below:
+
+</font>
+<hr>
+
+
+</td>
+
+<td>
+        <img src ="MEAN.jpg" width= "300px" height = "200px" title="This is what statistics all about">
+</td>
+
+</tr>
+</table>
+</td></tr>
+</table>
+<!---End Home---->
+
+<!--- Resources--->
+
+<table width="100%" bgcolor="#fafbff">
+
+<tr>
+<td> 
+<br><br><br><br>
+<table width="85%" border="0" align="center" cellpadding="15px">
+<tr align="center">
+<td colspan="5"> 
+	<font size="6" face="Open sans"> ADVANTAGES AND DISADVANTAGES OF MEAN </font> <br>
+	<hr align="center" width="10%">
+  </td>
+</tr>
+<tr align="center">
+<td>
+	
+   	<font size="4"> Now let us come to some of the advantages and disadvantages of mean. While mean is calculated, it takes into account all the values in the data and hence it is a good representative of the data.
+Mean is more or less easy to calculate and hence can be considered as a good measure of central tendency.<br>
+The most important disadvantage of mean is it is sensitive to extreme values, especially when the sample size is small. So for skewed distribution, mean is not an appropriate measure of central tendency. Suppose, we have a group of 10 students among whom the best ones in Maths have to be selected. So the marks in Maths are recorded. The marks are 0,50,60,55,57,58,50,48,59,60. The average is 49.7. If we exclude the student with marks 0, then the mean is 55.22. So only for one poor Maths student who obtained 0 in Maths, the average marks of the whole group went down. Thus mean is greatly affected by outliers.
+</font><br>
+</td>
+</tr>
+</table>
+<br><br><br><br>
+</td></tr>
+<table>
+<div style="background-color: white; padding-bottom: 10px;">
+	<b>Arithmetic Mean</b>
+	<input type="text" name="numbers" oninput="A_mean()" id="anumbers" class="form-control"style="margin-top: 10px; border-style:solid;border-width: 2px;border-color: black;">
+	<div id="avalue" style="font-size: 30px;text-align: center;"></div>
+	<br>
+	<b>Geometric Mean</b>
+	<input type="text" name="numbers" oninput="G_mean()" id="gnumbers" class="form-control"style="margin-top: 10px; border-style:solid;border-width: 2px;border-color: black;">
+	<div id="gvalue" style="font-size: 30px;text-align: center;"></div>
+	<br>
+	<b>Harmonic Mean</b>
+	<input type="text" name="numbers" oninput="H_mean()" id="hnumbers" class="form-control"style="margin-top: 10px; border-style:solid;border-width: 2px;border-color: black;">
+	<div id="hvalue" style="font-size: 30px;text-align: center;"></div>
+	</div>
+	
+<!--- End Resources--->
+<!---Home---->
+<table>
+<tr>
+<td>
+<table width="85%" border="0" align="center" cellpadding="15px">
+<tr align="center">
+<td> 
+	<font size="6" face="Open sans"> MEDIAN</font> <br>
+        <hr align="center" width="10%">
+	<h1> <font face="Open Sans" size="4">Median is the middlemost number in a sorted, ascending or descending set of numbers. The median is basically such a point, above and below which 50% of the given data falls.
+Let us come to the formula for median.
+For a list of odd amount of numbers, such as 2,3,7,8,10(arranged in ascending order), 7 is the middlemost number, which can be easily identified here. The formula for a list of odd amount of numbers is (n+1)/2 th observation. 
+Now for a list of even number of observations, such as 2,5,7,10,11,16(arranged in ascending order),
+it is difficult to identify the middlemost number. So here we often identify the 2 middlemost number
+and find their average in order to calculate the median. The formula for even number of
+observations is {(n/2)th observation + (n/2)+1 th observation}/2. 
+For both the cases, n is the total amount of numbers, or the total number of observations. In the
+Above discussion, for the first case, n is odd, and for the second case, n is even.
+</font></h1>
+<hr>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+<!---End Home---->
+<!--- Resources--->
+
+<table width="100%" bgcolor="#fafbff">
+	
+<tr>
+<td> 
+
+<div style="background-color: white; padding-bottom: 10px;">
+	<b>Median</b>
+	<input type="text" name="numbers" oninput="median()" id="menumbers" class="form-control"style="margin-top: 10px; border-style:solid;border-width: 2px;border-color: black;">
+	<div id="mevalue" style="font-size: 30px;text-align: center;"></div>
+	<br>
+</div>
+<table width="85%" border="0" align="center" cellpadding="15px">
+<tr align="center">
+<td colspan="5"> 
+	<font size="6" face="Open sans"> COMPARISON OF MEAN WITH MEDIAN</font> <br>
+	<hr align="center" width="10%">
+  </td>
+</tr>
+<tr align="center">
+<td>
+	
+   	<font size="4"> Median as compared to mean, is not as sensitive to extreme values as mean. The difference between mean and median can be best observed for a skewed data. Mean fails to identify the middle number in case of skewed data. Let us consider a data with extreme values or outliers such as 2,7,8,10,2500. Clearly, 2500 is the outlier here. If we calculate the mean, it is 505.4, which fails to represent the middle number. If we calculate the median, it is he 3rd observation, that is 8.
+Clearly median represents the middle number in a better way than mean in case of data with extreme values.
+
+</font> <br>
+</td>
+</tr>
+</table>
+<br><br><br><br>
+</td></tr>
+<table>
+
+<!--- End Resources--->
+<!---Home---->
+<table>
+<tr>
+<td>
+<table width="85%" border="0" align="center" cellpadding="15px">
+<tr align="center">
+<td> 
+	<font size="6" face="Open sans"> MODE</font> <br>
+        <hr align="center" width="10%">
+	<h1> <font face="Open Sans" size="4">Another measure of central tendency is mode. Mode gives an idea about the number with highest n frequency in a dataset. Suppose in a school, a class has been offered courses on 3 different languages. So to find the course with the highest number of interested students, we need to find the mode, here mean or median cannot fulfil our necessity. Thus mode is important. If we come to an example, let us consider a set of observations, 2,2,2,3,4,5,6. Here 2 is the number with highest frequency. So mode is 2.
+</font></h1>
+<hr>
+</td>
+</tr>
+</table>
+<div style="background-color: white; padding-bottom: 10px;">
+	<b>Mode</b>
+	<input type="text" name="numbers" oninput="mode()" id="monumbers" class="form-control"style="margin-top: 10px; border-style:solid;border-width: 2px;border-color: black;">
+	<div id="movalue" style="font-size: 30px;text-align: center; display: none;"></div>
+	<br>
+</div>
+</td></tr>
+</table>
+<!---End Home---->
+
+<!--- Footer--->
+
+<table width="100%">
+<tr><td>
+
+<table border="0" width="85%" align="center" cellpadding="15">
+
+<tr bgcolor="black" align="center"> 
+<td colspan="3"> <font color="#fff"> copyright @ 2022 | Statisticsforall </font></td>
+</tr>
+</table>
+
+</td></tr>
+</table>
+
+<!--- End Footer--->
+<script type="text/javascript" src="js/statfun.js"></script>
+</body>
+</html>
